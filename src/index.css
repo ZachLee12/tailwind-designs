@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+@layer components {
+    .card {
+        @apply flex items-center justify-center;
+        background-color: theme("colors.twitter-blue");
+    }
+}
